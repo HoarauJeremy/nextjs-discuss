@@ -33,7 +33,7 @@ export default function CardMessage({
       key={m._id}
       className={`flex flex-col rounded-md ${isOwn ? "items-end" : "items-start"}`}
     >
-      <div className={`flex flex-col rounded-md shadow ring ${isOwn ? "items-end bg-zinc-900 shadow-zinc-800 ring-zinc-800" : "items-start bg-zinc-800 shadow-zinc-700 ring-zinc-700"} rounded  w-1/3 h-auto p-2`}>
+      <div className={`flex flex-col rounded-md shadow ring ${isOwn ? "items-end bg-zinc-900 shadow-zinc-800 ring-zinc-800" : "items-start bg-zinc-800 shadow-zinc-700 ring-zinc-700"} rounded min-w-1/3 w-auto h-auto p-2`}>
         <p>{m.content}</p>
         <span className="flex flex-row">      
           {!isOwn && <p>{m.userName} - </p>} 
