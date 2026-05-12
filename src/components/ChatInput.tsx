@@ -28,6 +28,7 @@ export default function ChatInput() {
           <input
             className="w-full p-2.5 rounded-md focus:outline-2 focus:outline-offset-2 focus:outline-white"
             type="text"
+            max={255}
             placeholder="Votre Message..."
             onChange={(e) => setContent(e.target.value)}
           />
