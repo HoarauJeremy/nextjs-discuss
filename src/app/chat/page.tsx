@@ -9,11 +9,11 @@ export default function ChatPage() {
         <LogoutButton />
       </div>
 
-      <div>
+      <div className="w-full h-full flex flex-col">
         <ChatMessages />
       </div>
 
-      <div className="">
+      <div className="w-full">
         <ChatInput />
       </div>
     </div>

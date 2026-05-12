@@ -13,5 +13,5 @@ export default function LogoutButton() {
   }
 
   // return <button onClick={handleSignOut}>Se deconnecter</button>;
-  return <button onClick={handleSignOut}><IoLogOutOutline size={25} /></button>;
+  return <button className="bg-zinc-800 rounded-full p-2" onClick={handleSignOut}><IoLogOutOutline size={25} /></button>;
 }
